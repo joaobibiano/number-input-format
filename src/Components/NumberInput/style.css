@@ -1,0 +1,26 @@
+body {
+  background-color: #3a3042;
+  display: flex;
+  min-height: 100vh;
+  place-content: center;
+  place-items: center;
+}
+
+.phone-number {
+  padding-left: 40px;
+}
+
+select.country-select {
+  border: none;
+  position: absolute;
+  top: 3px;
+  margin-left: 3px;
+}
+
+select.country-select:-ms-expand {
+  display: none;
+}
+
+.container {
+  position: relative;
+}
